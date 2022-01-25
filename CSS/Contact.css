@@ -1,0 +1,467 @@
+.Navigation{
+    padding: 0 10%;
+    margin: 10px;
+    position: relative;
+    bottom: -20px;
+    left: -80px
+        
+}
+.logo{
+    position: relative;
+    left: -37px;
+}
+nav{
+    float: right;
+    list-style: none;
+    position: relative;
+    right: -165px
+}
+nav u1 li{
+    display: inline-block;
+    margin-left: 30px;
+    padding-top: 20px;
+    position: relative;
+    right: -30px;
+}
+nav u1 li a{
+    text-decoration: none;
+    color: #8d5e5e;
+    font-family: montserrat;
+    font-size: 15px;
+}
+nav u1 li a::after{
+    content: "";
+    display: block;
+    height: 3px;
+    width: 100%;
+    transform: scale(0);
+    background-color: black;
+    transition: ease-in-out .200s;
+    opacity: 0;
+        
+}
+nav u1 li a:hover::after{
+    transform: scale(1);
+    opacity: 1;
+}
+.headersf1{
+    background-color: black;
+    width: 700px;
+    height: 120px;
+    position: relative;
+    right: -330px;
+    bottom: -80px;
+    text-align: center;
+}
+.headersF2{
+    color: white;
+    text-align: center;
+    font-size: 70px;
+    font-family: Montserrat;
+}
+.formA{
+    width: 950px;
+    height: 700px;
+    position: relative;
+    right: -200px;
+    bottom: -200px;
+}
+.formheader{
+    position: relative;
+    right: -200px;
+    top: -500px;
+    font-family: Montserrat;
+    font-size: 50px;
+}
+.italic{
+    font-style: italic;
+    position: relative;
+    top: -520px;
+    right: -200px;
+    font-size: 18px;
+}
+.formp{
+    width: 200px;
+    position: relative;
+    top: -500px;
+    right: -570px;
+    font-size: 20px;
+    font-family: Montserrat;
+    text-align: center;
+}
+.forme{
+    text-decoration: underline;
+    width: 250px;
+    font-size: 20px;
+    position: relative;
+    top: -500px;
+    right: -590px;
+    font-family: Montserrat;
+}
+.formor{
+    font-size: 20px;
+    position: relative;
+    top: -500px;
+    right: -660px;
+    font-family: Montserrat;
+}
+.formtel{
+    font-size: 20px;
+    position: relative;
+    right: -610px;
+    top: -500px;
+    font-family: Montserrat;
+}
+.firstn{
+    font-size: 15px;
+    font-family: Montserrat;
+    position: relative;
+    top: -599px;
+    right: -260px;
+}
+.firstnn{
+    position: relative;
+    top: -550px;
+    right: -98px;
+    height: 40px;
+}
+.surname{
+    font-size: 15px;
+    font-family: Montserrat;
+    position: relative;
+    top: -470px;
+    left: -50px;
+}
+.surnamee{
+    position: relative;
+    top: -420px;
+    left: -205px;
+    height: 40px;
+}
+.email{
+    font-size: 15px;
+    font-family: Montserrat;
+    position: relative;
+    top: -599px;
+    right: -400px;
+}
+.emaile{
+    position: relative;
+    top: -550px;
+    right: -253px;
+    height: 40px;
+}
+.pn{
+    font-size: 15px;
+    font-family: Montserrat;
+    position: relative;
+    top: -470px;
+    right: -90px;
+}
+.pnn{
+    position: relative;
+    top: -420px;
+    height: 40px;
+    left: -86px;
+}
+.inquiry{
+    font-size: 15px;
+    font-family: Montserrat;
+    position: relative;
+    top: -420px;
+    left: -605px;
+}
+.inquiryy{
+    position: relative;
+    top: -400px;
+    right: -565px;
+}
+.submitt{
+    position: relative;
+    top: -350px;
+    right: -410px;
+    width: 100px;
+    height: 40px;
+    background-color: black;
+    color: white;
+}
+.location{
+    position: relative;
+    right: -180px;
+    top: -100px;
+    width: 1000px;
+}
+.apply{
+    background-color: #968d8d;
+    height: 390px;
+    width: 1400px;
+    position: relative;
+    left: -20px;
+    bottom: -400px;
+}
+.Headers{
+    font-family: Montserrat;
+    position: relative;
+    top: -90px;
+    right: -100px;
+}
+.Fl1{
+    list-style: none;
+    color: #444;
+    font-size: 16px;
+    text-align: left;
+    position: relative;
+    right: -102px;
+    top: -90px;
+    line-height: 37px;
+    font-size: 18px;
+}
+.first{
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    padding-left: 70px;
+    width: 170px;
+    text-align: center;
+    position: relative;
+    right: -60px;
+    bottom: -170px;
+}
+footer{
+    position: relative;
+    bottom: -130px;
+    margin-top: -500px;
+}
+.Second{
+    position: relative;
+    right: -550px;
+    top: -140px;
+    align-items: center;
+    padding-left: 50px;
+    text-align: center;
+    width: 285px;
+    padding-right: 60px;
+}
+.Headers2{
+    font-family: Montserrat;
+}
+.fl2{
+    line-height: 37px;
+    list-style: none;
+    color: #444;
+    font-size: 18px;
+    text-align: center;
+    position: relative;
+    right: -10px;
+    line-break: normal;
+    width: 145px;
+}
+.third{
+    position: relative;
+    right: -900px;
+    top: -325px;
+
+}
+.Headers3{
+    font-family: Montserrat;
+    position: relative;
+    right: -50px;
+}
+.fl3{
+    list-style: none;
+    color: #444;
+    font-size: 18px;
+    text-align: center;
+    position: relative;
+    left: -10px;
+    width: 300px;
+    padding: 10px;
+    opacity: 90%;
+}
+.copyright{
+    position: relative;
+    top: -200px;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+}
+@media all and (max-width: 600px) {
+    .logo{
+         position: absolute;
+         left: 65%;
+         top: 50%;
+         right: -20px;
+         transform: translate(-50%, -50%);
+         width: 200px;
+         height: 50px;
+         
+    }
+    .Navigation{
+        position: relative;
+        bottom: -20px;
+    }
+    .nv1{
+        position: relative;
+        bottom: -30px;
+        left: 60px;
+    }
+    .headers{
+        font-size: 30px;
+    }
+    .first{
+        position: relative;
+        margin-left: -200px;
+    }
+    .Headers2{
+        
+    }
+    .second{
+        position: relative;
+        left: -700px;
+    }
+    .Headers3{
+        font-size: 30px;
+        position: relative;
+        right: -60px;
+    }
+    .third{
+        position: relative;
+        margin-left: -650px;
+    }
+    .copyright{
+        position: relative;
+        left: -450px;
+    }
+    .number{
+        position: relative;
+        left: -430px;
+        bottom: -70px;
+    }
+    .locationz{
+        position: relative;
+        left: -430px;
+        bottom: -73px;
+    }
+    .headersf1{
+        position: relative;
+        bottom: -200px;
+        left: 80px;
+        width: 300px;
+        height: 60px;
+    }
+    .headersF2{
+        font-size: 16px;
+        position: relative;
+        right: -120px;
+        width: 200px;
+        height: 10px;
+        text-align: center;
+    }
+    .Form{
+        position: relative;
+        left: -200px;
+    }
+    .formA{
+        height: 1200px;
+    }
+    .formheader{
+        position: relative;
+        top: -740px;
+    }
+    .italic{
+        position: relative;
+        top: -740px;
+    }
+    .formp{
+        position: relative;
+        top: -1100px;
+        left: 325px;
+            
+    }
+    .forme{
+        position: relative;
+        top: -1100px;
+        left: 325px;
+    }
+    .formor{
+        position: relative;
+        top: -1100px;
+        left: 325px;
+    }
+    .formtel{
+        position: relative;
+        top: -1100px;
+        left: 325px;
+    }
+    .firstn{
+        position: relative;
+        top: -950px;
+        right: -400px;
+    }
+    .firstnn{
+        position: relative;
+        top: -900px;
+        right: -230px;
+    }
+    .surname{
+        position: relative;
+        left: 85px;
+        top: -820px;
+        
+    }
+    .surnamee{
+        position: relative;
+        left: 335px;
+        top: -810px;
+         
+    }
+    .email{
+        position: relative;
+        top: -730px;
+        left: 200px;
+    }
+    .emaile{
+        position: relative;
+        left: 335px;
+        top: -720px;
+    }
+    .pn{
+        position: relative;
+        right: -170px;
+        top: -630px;
+    }
+    .pnn{
+        position: relative;
+        left: 335px;
+        top: -620px;
+    }
+    .inquiry{
+        position: relative;
+        left: 200px;
+        top: -530px;
+        
+    }
+    .inquiryy{
+        position: relative;
+        top: -520px;
+        left: 340px;
+    }
+    .submitt{
+        position: relative;
+        left: 185px;
+        top: -450px;
+    }
+    .location{
+        width: 500px;
+        height: 300px;
+        position: relative;
+        left: 0px;
+        top: -300px;
+    }
+    .apply{
+        top: 200px;
+    }
+    
+
+}

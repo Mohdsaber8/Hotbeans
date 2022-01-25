@@ -1,0 +1,434 @@
+.Navigation{
+    padding: 0 10%;
+    margin: 10px;
+    position: relative;
+    bottom: -20px;
+    left: -80px
+        
+}
+.logo{
+    position: relative;
+    left: -37px;
+}
+nav{
+    float: right;
+    list-style: none;
+    position: relative;
+    right: -165px
+}
+nav u1 li{
+    display: inline-block;
+    margin-left: 30px;
+    padding-top: 20px;
+    position: relative;
+    right: -30px;
+}
+nav u1 li a{
+    text-decoration: none;
+    color: #8d5e5e;
+    font-family: montserrat;
+    font-size: 15px;
+}
+nav u1 li a::after{
+    content: "";
+    display: block;
+    height: 3px;
+    width: 100%;
+    transform: scale(0);
+    background-color: black;
+    transition: ease-in-out .200s;
+    opacity: 0;
+        
+}
+nav u1 li a:hover::after{
+    transform: scale(1);
+    opacity: 1;
+}
+.Intro1img{
+    position: relative;
+    right: -27px;
+    bottom: -50px;
+    img{max-width: 100%}
+}
+.HeadersA{
+    font-size: 64px;
+    font-family: Montserrat;
+    color: White;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    
+}
+.p1{
+    font-family: Montserrat;
+    font-size: 20px;
+    color: white;
+    position: relative;
+    top: -250px;
+    right: -415px;
+    line-height: 34px;
+    width: 500px;
+    text-align: center;
+    opacity: 80%;
+}
+.w3-button{
+    font-family: open sans;
+    position: relative;
+    right: -580px;
+    top: -230px;
+    padding: 18px 35px 18px 35px;
+    font-size: 15px;
+}
+.intro2{
+    list-style: none;
+    text-align: center;
+}
+label{
+    font-size: 12px;
+    position: relative;
+    top: -60px;
+    right: -550px;
+    
+}
+.firstlist{
+    font-size: 30px;
+    font-family: Montserrat;
+    display: inline;
+    position: relative;
+    left: -100px;
+}
+.secondlist{
+    font-size: 30px;
+    font-family: Montserrat;
+    display: inline;
+    position: relative;
+    right: -50px;
+}
+.thirdlist{
+    font-size: 30px;
+    font-family: Montserrat;
+    display: inline;
+    position: relative;
+    right: -150px;
+}
+.imagery{
+    width: 1100px;
+    height: 100px;
+    position: relative;
+    right: -116px;    
+}
+.HeadersB{
+    position: relative;
+    text-align: center;
+    font-family: Montserrat;
+    bottom: -70px;
+    left: -17px;
+}
+.Intro3{
+    list-style: none;
+    
+}
+.firstheading{
+    font-size: 32px;
+    position: relative;
+    right: -100px;
+    bottom: -160px;
+    justify-content: center;
+    width: 280px;
+    text-align: center;
+    
+        
+}
+.secondheading{
+    font-size: 32px;
+    position: relative;
+    text-align: center;
+    bottom: -116px;
+    text-align-last: center;
+    
+}
+.thirdheading{
+    font-size: 32px;
+    position: relative;
+    text-align: center;
+    width: 300px;
+    right: -966px;
+    bottom: -22px
+}
+.pa1{
+    width: 370px;
+    font-size: 19px;
+    font-family: Montserrat;
+    text-align: left;
+    font-weight: normal;
+    justify-content: center;
+    position: relative;
+    right: -30px;
+    bottom: -30px;
+    padding-left: 90px;
+    padding-right: 90px;
+    word-spacing: 0.3em;
+    line-height: 28px;
+}
+.pa2{
+    width: 490px;
+    font-size: 19px;
+    font-family: Montserrat;
+    text-align: left;
+    font-weight: normal;
+    justify-content: center;
+    position: relative;
+    right: -400px;
+    top: -250px;
+    padding-left: 130px;
+    padding-right: 100px;
+    word-spacing: 0.2em;
+    line-height: 30px;
+    
+}
+.pa3{
+    width: 490px;
+    font-size: 19px;
+    font-family: Montserrat;
+    text-align: left;
+    font-weight: normal;
+    justify-content: center;
+    position: relative;
+    right: -850px;
+    top: -460px;
+    padding-left: 130px;
+    padding-right: 100px;
+    word-spacing: 0.2em;
+    line-height: 30px;
+}
+.startnow{
+    background-color: black;
+    height: 480px;
+    width: 1350px;
+    position: relative;
+    top: -300px;
+        
+}
+.Business{
+    font-size: 36px;
+    color: white;
+    font-family: Montserrat;
+    position: relative;
+    text-align: center;
+    bottom: -80px;
+}
+.business2{
+    font-size: 20px;
+    color: #bbc3e0;
+    position: relative;
+    text-align: center;
+    bottom: -70px;
+    width: 670px;
+    right: -330px;
+    bottom: -100px;
+}
+.button6{
+    position: relative;
+    bottom: -380px;   
+}
+.apply{
+    background-color: #968d8d;
+    height: 390px;
+    width: 1400px;
+    position: relative;
+    left: -20px;
+}
+.Headers{
+    font-family: Montserrat;
+    position: relative;
+    top: -90px;
+    right: -100px;
+}
+.Fl1{
+    list-style: none;
+    color: #444;
+    font-size: 16px;
+    text-align: left;
+    position: relative;
+    right: -102px;
+    top: -90px;
+    line-height: 37px;
+    font-size: 18px;
+}
+.first{
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    padding-left: 70px;
+    width: 170px;
+    text-align: center;
+    position: relative;
+    right: -60px;
+    bottom: -170px;
+}
+footer{
+    position: relative;
+    bottom: -130px;
+    margin-top: -500px;
+}
+.Second{
+    position: relative;
+    right: -550px;
+    top: -140px;
+    align-items: center;
+    padding-left: 50px;
+    text-align: center;
+    width: 285px;
+    padding-right: 60px;
+}
+.Headers2{
+    font-family: Montserrat;
+}
+.fl2{
+    line-height: 37px;
+    list-style: none;
+    color: #444;
+    font-size: 18px;
+    text-align: center;
+    position: relative;
+    right: -10px;
+    line-break: normal;
+    width: 145px;
+}
+.third{
+    position: relative;
+    right: -900px;
+    top: -325px;
+
+}
+.Headers3{
+    font-family: Montserrat;
+    position: relative;
+    right: -50px;
+}
+.fl3{
+    list-style: none;
+    color: #444;
+    font-size: 18px;
+    text-align: center;
+    position: relative;
+    left: -10px;
+    width: 300px;
+    padding: 10px;
+    opacity: 90%;
+}
+.copyright{
+    position: relative;
+    top: -200px;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+}
+@media all and (max-width: 600px) {
+    .logo{
+         position: absolute;
+         left: 40%;
+         top: 50%;
+         right: -20px;
+         transform: translate(-50%, -50%);
+         width: 200px;
+         height: 50px;
+             
+    }
+    .Navigation{
+        position: relative;
+        bottom: -10px;
+    }
+    .nv1{
+        position: relative;
+        left: -10px;
+        bottom: -10px;
+    }
+    .HeadersA{
+        font-size: 30px;
+    }
+    .w3-button{
+        position: relative;
+        left: 150px;
+    } 
+    .p1{
+        visibility: hidden;
+    }
+    .w3-animate-bottom{
+        position: relative;
+        left: 25px;
+        line-height: 40pt;
+    }
+    .firstlist{
+        font-size: 30px;
+    }
+    .secondlist{
+        
+    }
+    .thirdlist{
+        
+    }
+    .Business{
+        position: relative;
+        text-align: left;
+        right: -100px;
+    }
+    .business2{
+        position: relative;
+        text-align: left;
+        right: -10px;
+        width: 500px;
+    }
+    .headers{
+        font-size: 30px;
+    }
+    .first{
+        position: relative;
+        margin-left: -200px;
+    }
+    .Headers2{
+        
+    }
+    .second{
+        position: relative;
+        left: -700px;
+    }
+    .Headers3{
+        font-size: 30px;
+        position: relative;
+        right: -60px;
+    }
+    .third{
+        position: relative;
+        margin-left: -650px;
+    }
+    .copyright{
+        position: relative;
+        left: -450px;
+    }
+    .number{
+        position: relative;
+        left: -430px;
+        bottom: -70px;
+    }
+    .locationz{
+        position: relative;
+        left: -430px;
+        bottom: -73px;
+    }
+    .firstheading{
+        
+    }
+    .secondheading{
+        visibility: hidden;
+    }
+    .pa2{
+        visibility: hidden;
+    }
+    .pa3{
+        
+    }
+}
