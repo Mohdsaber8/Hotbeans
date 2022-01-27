@@ -1,9 +1,4 @@
 
-*{
-    margin: 0;
-    padding: 0;
-
-}
 
 .Navigation{
     padding: 0 10%;
@@ -241,10 +236,9 @@ label{
     bottom: -380px;   
 }
 .apply{
-    background-color: #968d8d;
     height: 390px;
     width: 1400px;
-    position: relative;
+   
     left: -20px;
 }
 .Headers{
