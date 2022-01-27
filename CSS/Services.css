@@ -227,6 +227,7 @@ nav u1 li a:hover::after{
     right: -600px;
 }
 .apply{
+    background-color: #968d8d
     height: 390px;
     width: 1400px;
     left: -20px;
